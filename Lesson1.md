@@ -18,7 +18,6 @@ Code on Demand.
 There are five types of HTTP status codes:
 Informational (1xx)
  Success (2xx)
-14
  Redirection (3xx)
  Client errors (4xx)
  Server errors (5xx)
