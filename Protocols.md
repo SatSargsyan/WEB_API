@@ -4,7 +4,7 @@ The Internet Protocol family contains a set of related (and among the most widel
 
 
 ### SMTP, POP3 and IMAP are TCP/IP protocols used for mail delivery. If you plan to set up an email server such as hMailServer, you must know what they are used for. Each protocol is just a specific set of communication rules between computers.
-#### [SMTP]()
+#### [SMTP](http://www.omnisecu.com/tcpip/smtp-simple-mail-transfer-protocol-how-smtp-works.php)
  The objective of Simple Mail Transfer Protocol (SMTP) is to transfer
    mail reliably and efficiently.
 
@@ -41,6 +41,8 @@ You click Send in your email client, say, Outlook Express.
 Outlook Express delivers the email to hMailServer using the SMTP protocol.
 hMailServer delivers the email to Microsoft's mail server, mail.microsoft.com, using SMTP.
 Bill's Mozilla Mail client downloads the email from mail.microsoft.com to his laptop using the POP3 protocol (or IMAP).
+
+#### [Protocol numbers](http://www.omnisecu.com/tcpip/tcp-port-numbers.php)
 
 
 
