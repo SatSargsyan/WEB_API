@@ -4,7 +4,28 @@ The Internet Protocol family contains a set of related (and among the most widel
 
 
 ### SMTP, POP3 and IMAP are TCP/IP protocols used for mail delivery. If you plan to set up an email server such as hMailServer, you must know what they are used for. Each protocol is just a specific set of communication rules between computers.
-SMTP
+#### [SMTP]()
+ The objective of Simple Mail Transfer Protocol (SMTP) is to transfer
+   mail reliably and efficiently.
+
+   SMTP is independent of the particular transmission subsystem and
+   requires only a reliable ordered data stream channel.  Appendices A,
+   B, C, and D describe the use of SMTP with various transport services.
+   A Glossary provides the definitions of terms as used in this
+   document.
+
+   An important feature of SMTP is its capability to relay mail across
+   transport service environments.  A transport service provides an
+   interprocess communication environment (IPCE).  An IPCE may cover one
+   network, several networks, or a subset of a network.  It is important
+   to realize that transport systems (or IPCEs) are not one-to-one with
+   networks.  A process can communicate directly with another process
+   through any mutually known IPCE.  Mail is an application or use of
+   interprocess communication.  Mail can be communicated between
+   processes in different IPCEs by relaying through a process connected
+   to two (or more) IPCEs.  More specifically, mail can be relayed
+   between hosts on different transport systems by a host on both
+   transport systems.
 
 SMTP stands for Simple Mail Transfer Protocol. SMTP is used when email is delivered from an email client, such as Outlook Express, to an email server or when email is delivered from one email server to another. SMTP uses port 25.
 POP3
