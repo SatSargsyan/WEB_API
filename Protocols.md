@@ -8,8 +8,7 @@ The Internet Protocol family contains a set of related (and among the most widel
  The objective of Simple Mail Transfer Protocol (SMTP) is to transfer
    mail reliably and efficiently.
 
-   SMTP is independent of the particular transmission subsystem and
-   requires only a reliable ordered data stream channel.  Appendices A,
+   [SMTP](http://www.ietf.org/rfc/rfc788.txt) is independent of the particular transmission subsystem and   requires only a reliable ordered data stream channel.  Appendices A,
    B, C, and D describe the use of SMTP with various transport services.
    A Glossary provides the definitions of terms as used in this
    document.
@@ -43,6 +42,11 @@ hMailServer delivers the email to Microsoft's mail server, mail.microsoft.com, u
 Bill's Mozilla Mail client downloads the email from mail.microsoft.com to his laptop using the POP3 protocol (or IMAP).
 
 #### [Protocol numbers](http://www.omnisecu.com/tcpip/tcp-port-numbers.php)
+###### The Well Known Ports are those in the range 0 - 1023. The Well Known Ports are assigned by the IANA (Internet Assigned Numbers Authority) for major protocols.
+
+###### The Registered Ports are those in the range 1024 - 49151.
+
+###### The Private Ports are those in the range 49152 - 65535.
 
 
 
